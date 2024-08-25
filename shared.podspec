@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'shared'
-    spec.version                  = '2.0.1'
+    spec.version                  = '2.0.2'
     spec.homepage                 = 'https://github.com/sdiik/KMPCocoapods'
     spec.source                   = { :git => 'https://github.com/sdiik/KMPCocoapods.git', :tag => spec.version }
     spec.authors                  = { 'sdiik' => 'ahmadshiddiq0@gmail.com' }
