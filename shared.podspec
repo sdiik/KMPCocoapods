@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'shared'
-    spec.version                  = '2.0.0'
+    spec.version                  = '2.0.1'
     spec.homepage                 = 'https://github.com/sdiik/KMPCocoapods'
     spec.source                   = { :git => 'https://github.com/sdiik/KMPCocoapods.git', :tag => spec.version }
     spec.authors                  = { 'sdiik' => 'ahmadshiddiq0@gmail.com' }
@@ -8,5 +8,5 @@ Pod::Spec.new do |spec|
     spec.summary                  = 'Main module'
     spec.vendored_frameworks      = 'KMPCocoapods.framework'
     spec.libraries                = 'c++'
-    spec.ios.deployment_target    = '15.0'
+    spec.ios.deployment_target    = '13.0'
 end
